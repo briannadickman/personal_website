@@ -2,10 +2,10 @@
   width: device-width;
 }
 
-html {
+/*html {
   background-color: #7a9d96;
   color: #373737;
-}
+}*/
 
 h1 {
   font-family: 'Poiret One', cursive;
@@ -85,4 +85,12 @@ p {
   border: 7px double lightgrey;
   margin-top: 10px;
   padding: 30px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.salmon {
+  background-color: salmon;
 }
