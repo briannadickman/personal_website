@@ -94,3 +94,7 @@ p {
 .salmon {
   background-color: salmon;
 }
+
+.container-fluid {
+  height: 33%;
+}
