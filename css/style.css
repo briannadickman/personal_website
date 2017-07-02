@@ -66,10 +66,10 @@ img {
   padding: 20px;
 }
 
-p {
+/*p {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-}
+  font-size: 12px;
+}*/
 
 .linksDiv {
   width: 100%;
@@ -87,14 +87,49 @@ p {
   padding: 30px;
 }
 
-.yellow {
-  background-color: yellow;
+/*.header {
+  background-color: coral;
 }
 
-.salmon {
-  background-color: salmon;
+.body {
+  background-color: cornsilk;
+}
+
+.footer {
+  background-color: coral;
 }
 
 .container-fluid {
-  height: 33%;
+  display: flex;
+  /*height: 500px;*/
+/*}*/
+
+/*.row {
+  flex-grow: 1;
+}*/
+
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#profileDiv {
+  order: 1;
+  flex-grow: 3;
+  text-align: center;
+  height: 100%;
+}
+
+#nameDiv {
+  order: 2;
+  flex-grow: 1;
+  text-align: center;
+  height: 100%;
+  background-color: silver;
+}
+
+.footer {
+  margin-top: auto;
+  align-items: flex-end;
 }
