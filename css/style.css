@@ -71,17 +71,19 @@ img {
 }
 
 body {
-  display: flex;
+  display:  flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
 header {
   background-color: yellow;
+  text-align: right;
 }
 
 main {
   background-color: purple;
+  display: flex;
   flex-direction: row;
   flex: 1;
 }
@@ -92,12 +94,15 @@ footer {
 
 .bodyDiv {
   background-color: lime;
-  flex-grow: 2;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  flex: 1;
 }
 
 .nameDiv {
   background-color: pink;
-  flex-grow: 1;
+  margin: 10px;
 }
 
 /*.container-fluid {
