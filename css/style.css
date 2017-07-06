@@ -3,10 +3,10 @@
 }
 
 img {
-  width: 60%;
+  width: 30%;
   height: auto;
   /*border: solid 10px gray;*/
-  border-radius: 40px;
+  /*border-radius: 50px;*/
 }
 
 .linksDiv {
@@ -28,17 +28,18 @@ body {
   display:  flex;
   min-height: 100vh;
   flex-direction: column;
-
 }
 
 header {
-  background-color: yellow;
-  text-align: right;
-  font-family: 'Amatic SC', cursive;
+  background-color: #C89B82;
+  /*color: #F5E1CD;*/
+  text-align: center;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Poiret One', cursive;
   font-size: 36px;
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-right: 10px;
 
 }
 
@@ -53,13 +54,14 @@ main {
 }
 
 footer {
-  background-color: teal;
+  background-color: #84BD00;
+  padding: 5px;
 }
 
 .bodyDiv {
   position: absolute;
   overflow-y: auto;
-  background-color: lime;
+  background-color: #F5FFCD;
   height: 100%;
   padding: 10px;
   flex: 1;
@@ -73,6 +75,14 @@ footer {
   background-color: pink;
   margin: 10px;
 }
+
+#subtitle {
+  font-size: 16px;
+}
+
+/*.profileTextDiv {
+  max-width: 75%;
+}*/
 
 /*.container-fluid {
   flex-direction: row;
