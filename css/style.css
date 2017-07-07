@@ -5,14 +5,18 @@
 img {
   width: 30%;
   height: auto;
-  /*border: solid 10px gray;*/
-  /*border-radius: 50px;*/
+}
+
+img.links {
+  width: 60%;
+  height: auto;
 }
 
 .linksDiv {
   width: 100%;
   text-align: center;
   margin: auto;
+  /*font-size: none;*/
 }
 
 .linksDiv a {
@@ -21,7 +25,7 @@ img {
 
 html {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 
 body {
@@ -31,10 +35,8 @@ body {
 }
 
 header {
-  background-color: #C89B82;
-  /*color: #F5E1CD;*/
+  background-color: #E7D2B9;
   text-align: center;
-  /*font-family: 'Amatic SC', cursive;*/
   font-family: 'Poiret One', cursive;
   font-size: 36px;
   padding-top: 10px;
@@ -45,12 +47,15 @@ header {
 
 main {
   background-color: purple;
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex: 1;
   position: relative;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -62,18 +67,24 @@ footer {
   position: absolute;
   overflow-y: auto;
   background-color: #F5FFCD;
+  width: 100%;
   height: 100%;
   padding: 10px;
-  flex: 1;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
   text-align: center;
 }
 
 .nameDiv {
   background-color: pink;
   margin: 10px;
+}
+
+.profilePic {
+  margin: 30px;
+}
+
+.profileTextDiv {
+  margin: 30px;
 }
 
 #subtitle {
